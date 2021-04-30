@@ -9,7 +9,6 @@ submit.addEventListener("click", function (event) {
         resultPage(event);
         operation(number, range, tableJS);
     } else {
-        console.log("Bye");
         let error = document.getElementById("error-message");
         error.style.display = "block";
         error.innerHTML = "Introduce a number from 1 to 10";

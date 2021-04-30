@@ -24,6 +24,12 @@ let power = (base, exponent) => {
 
 let greet = who => console.log("Hello " + who);
 
+console.log(multiply(2, 2));
+console.log(toCelsius(23));
+console.log(padZeros(20, 30));
+console.log(power(4, 5));
+console.log(greet("Ainhoa"));
+
 // Exercisi 2
 // We can find the problem in the order of the events. First, we need to declare the variable.
 var users =
@@ -35,7 +41,7 @@ var users =
 
 //Then, we use map to create a new array
 users.map(function (user) {
-    user.firstName;
+    console.log(user.firstName);
 });
 
 // Exercisi 3

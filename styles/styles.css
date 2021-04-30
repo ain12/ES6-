@@ -13,6 +13,8 @@ body {
     font-family: 'Bubblegum Sans', cursive;
 }
 
+/*Level 2 App*/
+
 .mult-table {
     width: 22rem;
     height: 32rem;
@@ -108,4 +110,25 @@ color: #fff;
     border-radius: 2px;
     background-color: #ca8a8b;
     padding: 0.3rem;
+}
+
+/* Level 3 App */
+
+.level3 {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    padding: 0.7rem;
+    border: none;
+    background-color: #3f3f44;
+    border-radius: 0.6rem;
+}
+
+.level3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.level3:hover {
+    border: 3px solid #e9896a;
 }

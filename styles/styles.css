@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1f1dd;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+/*Level 2 App*/
+
+.mult-table {
+    width: 22rem;
+    height: 32rem;
+    background-color:#87a7b3;
+    border: 6px solid #ffc996;
+    border-radius: 0.625rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.12);
+}
+
+#box1, #box2{
+    display: block;
+    margin: 1.25rem auto;
+    width: 15rem;
+}
+
+#table {
+    text-align: center;
+}
+
+label {
+display: inline-block;
+}
+
+#box1 h1, #box2 h1 {
+text-align: center;
+font-size: 2rem;
+font-weight: 500;
+margin-bottom: 1.4rem;
+}
+
+#table label {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 0.7rem auto;
+}
+
+#number, #range {
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+}
+
+#error-message {
+    display: none;
+    background-color: red;
+    padding: 0.2rem;
+    font-size: 0.9375rem;
+    border-radius: 2px;
+}
+
+input[type=submit] {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #ffc996;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 200ms ease-in-out;
+}
+
+input[type=submit]:hover {
+background-color: #ff8474;
+color: #fff;
+}
+
+.image {
+    display: block;
+    width: 8rem;
+    height: 10rem;
+    margin-top: 1.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box2 {
+    display: none;
+}
+
+.table-js {
+    margin: 2rem auto;
+    width: 50%;
+}
+
+.table-js td {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #ca8a8b;
+    padding: 0.3rem;
+}
+
+/* Level 3 App */
+
+.level3 {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    padding: 0.7rem;
+    border: none;
+    background-color: #3f3f44;
+    border-radius: 0.6rem;
+}
+
+.level3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.level3:hover {
+    border: 3px solid #e9896a;
+}
